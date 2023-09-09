@@ -1,23 +1,23 @@
-#include <stdio.h> 
- #include <stdlib.h> 
- #include <time.h> 
- /** 
-  * main - Entry point 
-  * 
-  * Return:0 Always 
-  */ 
- int main(void) 
- { 
-         int n; 
-  
-         srand(time(0)); 
-         n = rand() - RAND_MAX / 2; 
-  
-         if (n > 0) 
-                 printf("%d is positive\n", n); 
-         else if (n == 0) 
-                 printf("%d is zero\n", n); 
-         else if (n < 0) 
-                 printf("%d is negative\n", n); 
-         return (0); 
- }
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - Entry point
+ *
+ * Return:0 Always
+ */
+int main(void)
+{
+0-positive_or_negative.c int n;
+
+0-positive_or_negative.c srand(time(0));
+0-positive_or_negative.c n = rand() - RAND_MAX / 2;
+
+0-positive_or_negative.c if (n > 0)
+0-positive_or_negative.c 0-positive_or_negative.c printf("%d is positive\n", n);
+0-positive_or_negative.c else if (n == 0)
+0-positive_or_negative.c 0-positive_or_negative.c printf("%d is zero\n", n);
+0-positive_or_negative.c else if (n < 0)
+0-positive_or_negative.c 0-positive_or_negative.c printf("%d is negative\n", n);
+0-positive_or_negative.c return (0);
+}
