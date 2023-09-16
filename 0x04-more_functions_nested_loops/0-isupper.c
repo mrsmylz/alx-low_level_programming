@@ -1,18 +1,20 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * _isupper - A function
- * @c: parameter to be evaluated
- * Return: 1 if true or 0 otherwise
+ * main - Entry point
+ *
+ * Return:0 Always
  */
-int _isupper(int c)
+int main(void)
 {
-	if (c >= 65 && c <= 90)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	 putchar('_');
+	 putchar('p');
+	 putchar('u');
+	 putchar('t');
+	 putchar('c');
+	 putchar('h');
+	 putchar('a');
+	 putchar('r');
+	 putchar('\n');
+
+	return (0);
 }
